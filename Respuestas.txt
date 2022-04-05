@@ -1,0 +1,12 @@
+f)
+¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+No se puede ver el archivo tp2_1_2.c porque fue creado en la rama Opcion_2 y actualmente estoy en la rama main como directorio de trabajo. 
+Puedo modificar el directorio, la rama, en gitbash (localmente) o en github (remotamente) 
+
+vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+Al hacer el 3er commit, la diferencia que noto es que las ramas Opcion_2 y main se muestran bifurcadas, en color rojo
+y que cada commit nuevo se va posicionando en su rama correspondiente.
+
+Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+Luego de hacer merge, el archivo tp2_1_2.c que no se podia ver al estar trabajando en la rama main (porque fue creado en la rama Opcion_2), ahora si puede verse en dicha rama (se hizo una copia a main).
+Gráficamente la bifurcación sigue estando con sus respectivos commit, pero la rama Opcion_2 se une nuevamente a la rama main.
